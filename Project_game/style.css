@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+.reset {
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 800px;
+    height: 800px;
+    background: #441111b5;
+    color: #fff;
+    font-size: 90px;
+    cursor: pointer;
+}
+.reset.active {
+    display: block;
+}
